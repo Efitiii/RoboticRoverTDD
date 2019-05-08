@@ -5,5 +5,8 @@ repositories {
 }
 
 dependencies {
-    testCompile 'junit:junit:4.12'
+    testCompile 'org.junit.jupiter:junit-jupiter-engine:5.2.0'
+    compile 'org.springframework.boot:spring-boot-starter-test:2.1.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-parent:2.1.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-web:2.1.2.RELEASE'
 }
